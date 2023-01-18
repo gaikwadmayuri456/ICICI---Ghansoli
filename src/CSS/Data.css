@@ -1,0 +1,86 @@
+.Data{
+    margin: 0px 10px 0px 20px;
+}
+
+.Head{
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.Row1{
+    padding: 10px 5px 10px 15px;
+    font-size: 16px;
+    border-radius: 10px;
+    text-align: center;
+    height: 80px;
+    width: 30%;
+    margin: 10px 30px 10px 0px;
+    border: 1px solid rgb(252, 252, 252);
+    box-shadow: 4px 4px 30px 15px rgba(183, 194, 194, 0.2);
+  
+}
+
+
+
+/* @media (min-width:800px) {
+   
+    .Row1{
+        width: 50%;
+        height: auto;
+    }
+    
+} */
+
+.Row1:Hover{
+    transform: scale(1.06);
+}
+
+.column{
+ 
+    width: 35%;
+    margin: 10px;
+    height: 90px;
+    border-radius: 15px;
+    border: 1px solid rgb(252, 252, 252);
+    box-shadow: 4px 4px 30px 15px rgba(183, 194, 194, 0.2);
+}
+.column:hover{
+    transform: scale(1.06);
+}
+
+
+
+.rows1{
+    
+    padding: 10px 0px 0px 0px ;
+    text-align: left;
+    
+}
+
+
+
+
+.ColA{
+    padding: 5px 0px 10px 5px;
+    font-size: 16px;
+    border-radius: 10px;
+    text-align: left;
+    height: 70px;
+    width: 32%;
+    margin: 2px;
+    border: 1px solid rgb(252, 252, 252);
+    box-shadow: 4px 4px 30px 15px rgba(183, 194, 194, 0.2);
+}
+
+.ColA:hover{
+    /* border: 1px solid rgb(106, 143, 224); */
+    transform: scale(1.06);
+}
+
+.title{
+    padding: 5px 5px 9px 0px ;
+}
+
+.armed{
+    margin-top: 15px;
+}

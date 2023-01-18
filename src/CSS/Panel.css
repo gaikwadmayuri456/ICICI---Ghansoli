@@ -1,0 +1,71 @@
+.Panel{
+    margin: 0px 10px 0px 0px;
+   
+    border-radius: 10px;
+    box-shadow: 4px 4px 12px 5px rgba(183, 194, 194, 0.2);
+    height: 100px;
+    
+}
+
+.room{
+
+    display: inline-table;
+    width: 10%;
+    text-align: center;
+    padding: 10px 10px 0px 10px;
+    border: 1px solid rgb(121, 114, 114 , 0.1);
+    margin: 15px 25px 25px 20%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 15px 8px rgba(183, 194, 194, 0.2);
+    
+
+}
+.control{
+    display: inline;
+   
+}
+.Controlp{
+    width: 15%;
+    float:right;
+    border: 1px solid rgb(192, 181, 181);
+    background-color: rgb(30, 131, 161);
+    border-radius: 10px;
+    color: white;
+    border: 0.1px solid rgb(121, 114, 114 , 0.1);
+    font-size: 18px;
+    box-shadow: 4px 4px 12px 5px rgba(183, 194, 194, 0.2);
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+}
+.Power{
+    width: 15%;
+    float: right;
+    border: 1px solid wheat;
+    padding: 15px;
+    box-shadow: 4px 4px 12px 5px rgba(183, 194, 194, 0.2);
+    border-radius: 10px;
+    margin: 15px;
+    border: 0.1px solid rgb(121, 114, 114 , 0.1);
+    background-color: rgb(30, 131, 161);
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.Power:hover{
+    cursor: pointer;
+    background-color: rgb(49, 166, 202);
+}
+
+
+
+.Controlp:hover{
+    cursor: pointer;
+    background-color: rgb(49, 166, 202);
+}
+
+.button-btn{
+    background-color: none;
+    border: none;
+}

@@ -20,6 +20,8 @@ import DemoCard from "./Components/DemoCard";
 import Json from "./Components/Json";
 import AcController10 from "./Components/AcController10";
 import Animation from "./Components/Animation";
+import Dashboard from "./Components/Dashboard";
+import ServiceFile from "./Components/ServiceFile";
 
 function App() {
     const [loading, setLoading] = useState(true);
@@ -53,19 +55,19 @@ function App() {
     }, []);
 
 	const menuItems = [
-        // {
-        //     key: "dashboard",
-        //     label: (
-        //         <Link to={`/dashboard`}>
-        //             Dashboard
-        //         </Link>
-        //     ),
-        //     icon: <AiFillHome />,
+        {
+            key: "dashboard",
+            label: (
+                <Link to={`/dashboard`}>
+                    Dashboard
+                </Link>
+            ),
+            icon: <AiFillHome />,
 
-        //     search: "dashboard",
-        //     pathname: `/dashboard`,
-        //     name: "Dashboard",
-        // },
+            search: "dashboard",
+            pathname: `/dashboard`,
+            name: "Dashboard",
+        },
 
         {
             key: "Floor9",
@@ -152,8 +154,8 @@ function App() {
 							<MyPortal id="navbar-portal">ABC Page | Shlok OP</MyPortal>
 						</>
 					} />
-				
-                    
+				                    <Route path="dashboard" element={<><Dashboard/><ServiceFile/></>} /> 
+
                     <Route path="Floor9" element={<FloorNine/>} > 
 
                       
